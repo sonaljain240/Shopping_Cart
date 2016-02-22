@@ -47,7 +47,6 @@ public class A3Driver
 				e.printStackTrace();
 				System.exit(-1);
 			}
-		//Open file; file name specified in args (command line)
 		
 		// General code example for how to iterate an array list. You will have to modify this heavily, to suit your needs.
 		  Iterator<Item> i = shoppingCart.iterator();
@@ -62,8 +61,4 @@ public class A3Driver
 		  }		
 	  }
 	  
-	  public Item parse(String s)
-	  {
-		  return null;
-	  }
 }
